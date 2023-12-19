@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "authorization.apps.AuthorizationConfig",
-    'authorization'
+    'сustom_authorization.apps.CustomAuthorizationConfig',
+    'game'
 ]
 
 MIDDLEWARE = [

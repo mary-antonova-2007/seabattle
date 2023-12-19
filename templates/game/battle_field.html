@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div class="row">
+        {% for row in size_vertical %}
+            <div class="col">
+                {% for col in size_horizontal %}
+                    <div class="cell" id="cell-{{ row }}-{{ col }}"></div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
